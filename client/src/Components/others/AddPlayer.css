@@ -1,0 +1,26 @@
+.form {
+    display:inline-flex;
+    }
+
+.formBoundary{
+    display:inline-grid;
+    border: solid;
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 450px;
+    background-color: rgb(142, 206, 206);
+  
+}
+
+.button {
+    display: flex;
+    margin-top: 5px;
+
+    justify-content: end;
+}
+
+.button button{
+    color: white;
+    background-color: rgb(98, 98, 226);
+}
+

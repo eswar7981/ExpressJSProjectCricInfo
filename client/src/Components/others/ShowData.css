@@ -1,0 +1,59 @@
+.outerBoundary{
+    display: grid;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+}
+
+.name p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.photo{
+    display:flex;
+    justify-content: center;
+    
+}
+
+.photo img{
+    border: solid;
+}
+
+.description{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+.labels{
+    display: grid;
+    gap: 5px;
+}
+.inputs{
+    display: grid;
+    gap: 5px;
+    }
+
+.inputs input{
+    background-color:rgb(175, 175, 175);
+    color:black;
+    border: solid;
+    border-width: 1px;
+}
+
+.edit {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+  
+}
+.edit button{
+    color: white;
+    background-color: rgb(98, 98, 226);
+}
